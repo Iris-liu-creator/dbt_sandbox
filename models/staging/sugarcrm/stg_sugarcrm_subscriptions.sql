@@ -2,7 +2,6 @@ select
     id as subscription_id,
     name as subscription_name,
     status,
-    stage,
     date_modified::timestamp as updated_at,
     deleted::boolean as is_deleted,
     _fivetran_synced

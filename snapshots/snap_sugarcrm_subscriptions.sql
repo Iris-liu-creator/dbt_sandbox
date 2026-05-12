@@ -13,7 +13,6 @@ select
     subscription_id,
     subscription_name,
     status,
-    stage,
     updated_at,
     is_deleted
 from {{ ref('stg_sugarcrm_subscriptions') }}
