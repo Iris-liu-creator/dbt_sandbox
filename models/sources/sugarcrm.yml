@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sugarcrm
+    database: revops_sandbox
+    schema: sugarcrm_sdk
+    tables:
+      - name: subsc_subscriptions
